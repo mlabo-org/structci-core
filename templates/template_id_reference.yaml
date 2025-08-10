@@ -1,0 +1,22 @@
+applicable_mode: compile
+blocks:
+  swell_button_block: swell_button_block
+  balloon_id: balloon_id
+  balloon_natural: balloon_natural
+  cap_block: cap_block
+  code_block: code_block
+  cta_block: cta_block
+  faq_block: faq_block
+  heading_wp_h1: heading_wp_h1
+  heading_wp_h2: heading_wp_h2
+  heading_wp_h3: heading_wp_h3
+  heading_wp_h4: heading_wp_h4
+  list_block_basic: list_block_basic
+  paragraph_block: paragraph_block
+  step_block: step_block
+  table: table
+  table_block: table_block
+  table_block_th: table_block_th
+  table_th: table_th
+id: template_dict
+version: 1.0.0

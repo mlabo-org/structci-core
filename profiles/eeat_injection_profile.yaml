@@ -1,0 +1,13 @@
+eeat_context:
+  experience: ソフトウェアエンジニア歴17年以上。FA/OA系制御、Webアプリ、仮想環境、FreeBSDまで幅広く実務経験。
+  expertise: ChatGPT出力構文の制御、Struct CIの構築、SWELL用WPテンプレ設計、再現性の高い構文展開。
+  output_focus: テンプレ数100+、再現性・整合性・構文の安定出力。構文崩壊への耐性構築に特化。
+  philosophy: “構造を支配するAI運用”。構文破壊を防ぎ、最終調整は人間が担う設計思想。
+  trust_proof:
+  - mlabo.orgで構文思想を発信
+  - gpt4jp.comで実証と共有
+  - 構造的怠惰設計の思想公開：https://mlabo.org/12508/
+  - 'YouTube: https://www.youtube.com/@makotoyoutuber'
+  - 'BlueSky: https://bsky.app/profile/mlabo.org'
+  - 'X (旧Twitter): https://x.com/MakotoYoutuber'
+  name: MakotoYoutuber

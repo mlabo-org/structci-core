@@ -1,0 +1,180 @@
+balloon_id:
+  html: |
+    <!-- wp:loos/balloon {"balloonID":"[ID]"} -->
+    <p>[TEXT]</p>
+    <!-- /wp:loos/balloon -->
+balloon_natural:
+  html: |
+    <!-- wp:loos/balloon -->
+    <p>[BODY]</p>
+    <!-- /wp:loos/balloon -->
+cap_block:
+  html: |-
+    <!-- wp:loos/cap-block {"className":"is-style-onborder_ttl"} -->
+    <div class="swell-block-capbox cap_box is-style-onborder_ttl">
+      <div class="cap_box_ttl"><span>[title]</span></div>
+      <div class="cap_box_content">
+        <!-- wp:paragraph -->
+        <p>[content]</p>
+        <!-- /wp:paragraph -->
+      </div>
+    </div>
+    <!-- /wp:loos/cap-block -->
+code_block:
+  html: |-
+    <!-- wp:loos-hcb/code-block {"isLineShow":"off","className":"prism off-numbers lang-plain"} -->
+    <div class="hcb_wrap prism off-numbers lang-plain">
+      <pre class="prism off-numbers lang-plain"><code>[CODE]</code></pre>
+    </div>
+    <!-- /wp:loos-hcb/code-block -->
+cta_block:
+  html: |-
+    <!-- wp:group {"className":"cta-block"} -->
+    <div class="wp-block-group cta-block">
+
+      <!-- wp:paragraph -->
+      <p>[CTAメッセージ]</p>
+      <!-- /wp:paragraph -->
+
+      <!-- wp:buttons -->
+      <div class="wp-block-buttons">
+        <!-- wp:button -->
+        <div class="wp-block-button">
+          <a class="wp-block-button__link wp-element-button" href="[リンク先]">[ボタンテキスト]</a>
+        </div>
+        <!-- /wp:button -->
+      </div>
+      <!-- /wp:buttons -->
+
+    </div>
+    <!-- /wp:group -->
+faq_block:
+  html: |
+    <!-- wp:loos/faq {"iconRadius":"circle","qIconStyle":"fill-custom","aIconStyle":"fill-custom","outputJsonLd":true,"titleTag":"h3"} -->
+    <div class="swell-block-faq -icon-circle" data-q="fill-custom" data-a="fill-custom">
+    <!-- wp:loos/faq-item {"titleTag":"h3"} -->
+    <div class="swell-block-faq__item">
+    <h3 class="faq_q"></h3>
+    <div class="faq_a">
+    <!-- wp:paragraph -->
+    <p></p>
+    <!-- /wp:paragraph -->
+    </div>
+    </div>
+    <!-- /wp:loos/faq-item -->
+    <!-- wp:loos/faq-item {"titleTag":"h3"} -->
+    <div class="swell-block-faq__item">
+    <h3 class="faq_q"></h3>
+    <div class="faq_a">
+    <!-- wp:paragraph -->
+    <p></p>
+    <!-- /wp:paragraph -->
+    </div>
+    </div>
+    <!-- /wp:loos/faq-item -->
+    </div>
+    <!-- /wp:loos/faq -->
+heading_wp_h1:
+  html: |
+    <!-- wp:heading {"level":1} --><h1 class="wp-block-heading">[TEXT]</h1><!-- /wp:heading -->
+heading_wp_h2:
+  html: |
+    <!-- wp:heading {"level":2} --><h2 class="wp-block-heading">[TEXT]</h2><!-- /wp:heading -->
+heading_wp_h3:
+  html: |
+    <!-- wp:heading {"level":3} --><h3 class="wp-block-heading">[TEXT]</h3><!-- /wp:heading -->
+heading_wp_h4:
+  html: |
+    <!-- wp:heading {"level":4} --><h4 class="wp-block-heading">[TEXT]</h4><!-- /wp:heading -->
+list_block_basic:
+  html: |
+    <!-- wp:list -->
+    <ul>
+    <!-- wp:list-item -->
+    <li>リスト項目A</li>
+    <!-- /wp:list-item -->
+    <!-- wp:list-item -->
+    <li>リスト項目B</li>
+    <!-- /wp:list-item -->
+    <!-- wp:list-item -->
+    <li>リスト項目C</li>
+    <!-- /wp:list-item -->
+    </ul>
+    <!-- /wp:list -->
+paragraph_block:
+  html: |
+    <!-- wp:paragraph --><p>[TEXT]</p><!-- /wp:paragraph -->
+step_block:
+  html: |
+    <!-- wp:loos/step -->
+    <div class="swell-block-step" data-num-style="circle">
+
+      <!-- wp:loos/step-item {"stepLabel":"STEP"} -->
+      <div class="swell-block-step__item">
+        <div class="swell-block-step__number u-bg-main"><span class="__label">STEP</span></div>
+        <div class="swell-block-step__title u-fz-l">[TITLE1]</div>
+        <div class="swell-block-step__body">
+          <!-- wp:paragraph -->
+          <p>[BODY1]</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+      <!-- /wp:loos/step-item -->
+
+      <!-- wp:loos/step-item {"stepLabel":"STEP"} -->
+      <div class="swell-block-step__item">
+        <div class="swell-block-step__number u-bg-main"><span class="__label">STEP</span></div>
+        <div class="swell-block-step__title u-fz-l">[TITLE2]</div>
+        <div class="swell-block-step__body">
+          <!-- wp:paragraph -->
+          <p>[BODY2]</p>
+          <!-- /wp:paragraph -->
+        </div>
+      </div>
+      <!-- /wp:loos/step-item -->
+
+    </div>
+    <!-- /wp:loos/step -->
+table:
+  html: |-
+    <!-- wp:table {"hasFixedLayout":false} -->
+    <figure class="wp-block-table">
+    <table>
+      <thead>
+        <tr><th>見出し1</th><th>見出し2</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>データ1</td><td>データ2</td></tr>
+        <tr><td>データ3</td><td>データ4</td></tr>
+      </tbody>
+    </table>
+    </figure>
+    <!-- /wp:table -->
+table_block:
+  html: |
+    <!-- wp:table --><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>比較項目</th><th>GPT-4o</th><th>GPT-4.1</th></tr></thead><tbody><tr><td>出力速度</td><td>非常に速い</td><td>標準的</td></tr></tbody></table></figure><!-- /wp:table -->
+table_block_th:
+  html: |
+    <!-- wp:table --><figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>比較項目</th><th>GPT-4o</th><th>GPT-4.1</th></tr></thead><tbody><tr><th>出力速度</th><td>非常に速い</td><td>標準的</td></tr></tbody></table></figure><!-- /wp:table -->
+table_th:
+  html: |-
+    <!-- wp:table {"hasFixedLayout":false} -->
+    <figure class="wp-block-table">
+    <table>
+      <thead>
+        <tr><th>見出し1</th><th>見出し2</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>行1</th><td>データA</td></tr>
+        <tr><th>行2</th><td>データB</td></tr>
+      </tbody>
+    </table>
+    </figure>
+    <!-- /wp:table -->
+swell_button_block:
+  html: |
+    <!-- wp:loos/button {"hrefUrl":"[リンク先]","className":"is-style-btn_normal"} -->
+    <div class="swell-block-button is-style-btn_normal">
+      <a href="[リンク先]" class="swell-block-button__link"><span>[ボタンテキスト]</span></a>
+    </div>
+    <!-- /wp:loos/button -->
