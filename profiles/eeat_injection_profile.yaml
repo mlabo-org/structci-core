@@ -6,8 +6,8 @@ eeat_context:
   trust_proof:
   - mlabo.orgで構文思想を発信
   - gpt4jp.comで実証と共有
-  - 構造的怠惰設計の思想公開：https://mlabo.org/12508/
-  - 'YouTube: https://www.youtube.com/@makotoyoutuber'
-  - 'BlueSky: https://bsky.app/profile/mlabo.org'
-  - 'X (旧Twitter): https://x.com/MakotoYoutuber'
-  name: MakotoYoutuber
+  - 構造的怠惰設計の思想公開：https://example.com/articles/structural-design
+  - 'YouTube: https://www.youtube.com/@examplechannel'
+  - 'BlueSky: https://bsky.app/profile/example.com'
+  - 'X (旧Twitter): https://x.com/example_account'
+  name: ExampleCreator
